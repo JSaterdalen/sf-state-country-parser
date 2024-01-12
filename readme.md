@@ -50,4 +50,4 @@ Run the following command in your terminal:
     sf-state
 ```
 
-It will create two CSV files in your project root: `states.csv` and `countries.csv`. You can import them into Excel from here.
+It will create two CSV files in the folder `sf-state`: `states.csv` and `countries.csv`. You can import them into Excel from here.
