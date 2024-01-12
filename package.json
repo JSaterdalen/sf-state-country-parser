@@ -1,0 +1,32 @@
+{
+    "name": "sf-state-parser",
+    "version": "1.0.0",
+    "description": "Takes State and Country Picklist options from Salesforce and converts it to a CSV file.",
+    "keywords": [
+        "salesforce",
+        "sf",
+        "sfdx"
+    ],
+    "homepage": "https://github.com/JSaterdalen/sf-state-parser",
+    "bugs": {
+        "url": "https://github.com/JSaterdalen/sf-state-parser/issues"
+    },
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Josh Saterdalen <josh@saterdalen.me> (https://github.com/JSaterdalen)",
+    "license": "MIT",
+    "bin": {
+        "sf-state": "index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github:JSaterdalen/sf-state-parser"
+    },
+    "dependencies": {
+        "papaparse": "^5.4.1",
+        "xml2js": "^0.6.2"
+    }
+}
