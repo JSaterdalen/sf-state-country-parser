@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from 'fs';
 import papa from 'papaparse';
 import xml2js from 'xml2js';
