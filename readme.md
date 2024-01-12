@@ -1,6 +1,6 @@
 # sf-state-country-parser
 
-[![NPM Version](http://img.shields.io/npm/v/sf-state-parser)](https://www.npmjs.org/package/st-state-parser)
+[![NPM Version](http://img.shields.io/npm/v/sf-state-parser)](https://www.npmjs.org/package/sf-state-parser)
 
 ## Installation
 
