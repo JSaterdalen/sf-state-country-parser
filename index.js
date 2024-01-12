@@ -48,11 +48,11 @@ async function parseXML() {
     });
 
     // create csv files
+    fs.mkdirSync('./sf-state');
     const csv = papa.unparse(states);
-    fs.writeFileSync('./states.csv', csv);
-
+    fs.writeFileSync('./sf-state/states.csv', csv);
     const csv2 = papa.unparse(countries);
-    fs.writeFileSync('./countries.csv', csv2);
+    fs.writeFileSync('./sf-state/countries.csv', csv2);
 }
 
 parseXML();
