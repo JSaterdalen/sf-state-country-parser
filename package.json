@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "github:JSaterdalen/sf-state-parser"
+        "url": "git+https://github.com/JSaterdalen/sf-state-parser.git"
     },
     "dependencies": {
         "papaparse": "^5.4.1",
