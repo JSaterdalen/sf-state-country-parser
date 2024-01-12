@@ -1,6 +1,6 @@
 {
     "name": "sf-state-parser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Takes State and Country Picklist options from Salesforce and converts it to a CSV file.",
     "keywords": [
         "salesforce",
